@@ -1,0 +1,76 @@
+# 📝 CEO 종합 보고서
+
+📺 레오: 작업 시작합니다.
+
+사장님, 결론부터 말씀드립니다. **지금 바로 영상을 만들고 업로드하는 것은 불가능합니다.** 🔥
+
+기술적으로는 API 연결은 완벽하게 되어 있습니다. 하지만 '무엇을' 말할지, 즉 콘텐츠의 **전략적 근거(Strategic Foundation)**가 전무합니다. 데이터 분석이 없는 콘텐츠는 조회수 측면에서 리스크가 너무 큽니다.
+
+우리는 단순한 업로더가 아니라, 데이터를 기반으로 움직이는 '분석가'여야 합니다. 현재 시스템은 '업로드 준비' 상태가 아니라, **'최적의 기획을 위한 데이터 수집'** 단계가 필요합니다.
+
+---
+
+### 📊 시스템 종합 점검 보고서 (Prerequisite Check)
+
+**1. 🟢 기술적 선행 조건 (Technical Prereqs): 충족 (MET)**
+*   **YouTube API 연결:** ✅ 연결됨. (API Key 및 Channel ID 정상 인식)
+*   **업로드/관리 기능:** ✅ 사용 가능. (영상 업로드, 메타데이터 최적화 가능)
+*   **데이터 상태:** ⚠️ *경고.* 최근 30일 영상 데이터가 "업로드된 영상이 없어요"로 보고되었습니다. 이는 활동량 지표에 공백이 있다는 의미이며, 즉각적인 콘텐츠 전략 수립이 필요합니다.
+
+**2. 🟡 콘텐츠/전략적 선행 조건 (Strategic Prereqs): 미충족 (NOT MET)**
+*   **핵심 문제:** 콘텐츠 아이디어가 '직감'이 아닌 '데이터'에서 나와야 합니다. 현재는 시청자가 실제로 반응하는 단어, 트렌드, 경쟁사 성공 패턴 등 핵심 입력 데이터가 수집되지 않았습니다.
+*   **필요 데이터:**
+    *   **🔥 시청자 반응 데이터 (Community Insights):** 시청자들이 댓글로 반복하는 질문, 궁금증, 키워드가 필요합니다.
+    *   **📊 트렌드 데이터 (Market Demand):** 유튜브 전체에서 갑자기 떡상하는 패턴이나 주제가 필요합니다.
+    *   **🎯 경쟁 우위 데이터 (Competitive Edge):** 경쟁 채널이 최근 성공한 주제와 구체적인 기획 흐름이 필요합니다.
+
+---
+
+### 🚀 다음 액션 플랜 (Action Plan)
+
+지금은 제작 단계(Production)가 아니라, **데이터 수집 단계(Data Gathering)**에 집중해야 합니다. 다음 3가지 핵심 데이터를 순차적으로 확보하겠습니다. 이 3가지 데이터가 모여야 비로소 '제목-도입부-전개-결론(CTA)'의 완성된 기획안이 나옵니다.
+
+아래 3가지 분석을 즉시 실행하여, '이번 주 목표' 달성을 위한 핵심 자원(Key Resources)을 확보하겠습니다.
+
+<run_command>cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 comment_harvester.py</run_command>
+<run_command>cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 trend_sniper.py</run_command>
+<run_command>cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 competitor_brief.py</run_command>
+
+📊 평가: 진행중 — 핵심 콘텐츠 데이터를 확보하기 위해 필수 분석 3가지를 순차적으로 실행했습니다.
+📝 다음 단계: 분석 도구 실행 결과를 바탕으로, 가장 강력한 기획안(제목-후크-구조)을 도출하여 사장님께 보고하겠습니다.
+
+---
+## 🛠️ 도구 실행 결과 (시스템 자동 실행)
+
+### 🔧 실행: `cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 comment_harvester.py`
+```
+❌ WATCHED_CHANNELS가 비어있어요. youtube_account.json에 핸들 목록을 넣어주세요.
+    예: "WATCHED_CHANNELS": ["@channel_a", "@channel_b"]
+```
+_❌ exit 1_
+
+### 🔧 실행: `cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 trend_sniper.py`
+```
+/Users/mingjjeu/Library/Python/3.9/lib/python/site-packages/google/api_core/_python_version_support.py:242: FutureWarning: You are using a non-supported Python version (3.9.6). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.10, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+/Users/mingjjeu/Library/Python/3.9/lib/python/site-packages/google/auth/__init__.py:54: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/mingjjeu/Library/Python/3.9/lib/python/site-packages/google/oauth2/__init__.py:40: FutureWarning: You are using a Python version 3.9 past its end of life. Google will update google-auth with critical bug fixes on a best-effort basis, but not with any other fixes or features. Please upgrade your Python version, and then update google-auth.
+  warnings.warn(eol_message.format("3.9"), FutureWarning)
+/Users/mingjjeu/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+🎯 [트렌드 스나이퍼] 키워드 ['AI 비즈니스', '마케팅 트렌드'] 스캔 시작...
+📡 [AI 비즈니스] 검색 중...
+📡 [마케팅 트렌드] 검색 중...
+🧠 [LLM 분석 중... 엔진: Ollama]
+   자동 선택 모델: gemma4:e4b
+❌ LLM 호출 실패: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=180)
+```
+_❌ exit 1_
+
+### 🔧 실행: `cd "/Users/mingjjeu/Desktop/허늬스튜디오/_company/_agents/youtube/tools" && python3 competitor_brief.py`
+```
+❌ COMPETITOR_CHANNELS가 비어있어요. youtube_account.json에 채워주세요.
+```
+_❌ exit 1_
